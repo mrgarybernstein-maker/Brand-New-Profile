@@ -1,0 +1,218 @@
+{
+  "title": "Brand New Profile",
+  "subtitle": "Test new features",
+  "submitLabel": "Submit",
+  "fields": [
+    {
+      "id": "first-name",
+      "label": "First Name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "preferred-name",
+      "label": "Preferred Name",
+      "type": "alpha-full",
+      "required": false
+    },
+    {
+      "id": "last-name",
+      "label": "Last Name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "health-card",
+      "label": "Health Card Number",
+      "type": "split",
+      "required": true,
+      "pattern": "AAAA NNNN NNNN"
+    },
+    {
+      "id": "dob",
+      "label": "Date of Birth",
+      "type": "split",
+      "required": true,
+      "pattern": "NN-MMM-NNNN"
+    },
+    {
+      "id": "age",
+      "label": "Age",
+      "type": "split",
+      "required": false,
+      "pattern": "NN"
+    },
+    {
+      "id": "sex-at-birth",
+      "label": "Sex at birth",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "male",
+          "label": "Male"
+        },
+        {
+          "value": "female",
+          "label": "Female"
+        }
+      ]
+    },
+    {
+      "id": "gender",
+      "label": "Gender",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "m",
+          "label": "M",
+          "required": false
+        },
+        {
+          "value": "f",
+          "label": "F",
+          "required": false
+        },
+        {
+          "value": "none-of-your-buisness",
+          "label": "None of your buisness",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "preferred-pronouns",
+      "label": "Preferred Pronouns",
+      "type": "free-full",
+      "required": false
+    },
+    {
+      "id": "marital-status",
+      "label": "Marital Status",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "married",
+          "label": "Married",
+          "required": true
+        },
+        {
+          "value": "single",
+          "label": "Single",
+          "required": true
+        },
+        {
+          "value": "divorced",
+          "label": "Divorced",
+          "required": true
+        },
+        {
+          "value": "widowed",
+          "label": "Widowed",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "preferred-language",
+      "label": "Preferred Language",
+      "type": "radio",
+      "required": false,
+      "options": [
+        {
+          "value": "english",
+          "label": "English",
+          "required": true
+        },
+        {
+          "value": "french",
+          "label": "French",
+          "required": true
+        },
+        {
+          "value": "esperanto",
+          "label": "Esperanto",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "primary-mobile",
+      "label": "Primary • Mobile",
+      "type": "split",
+      "required": false,
+      "pattern": "NNN NNN-NNNN"
+    },
+    {
+      "id": "primary-home",
+      "label": "Primary • Home",
+      "type": "split",
+      "required": false,
+      "pattern": "NNN NNN-NNNN"
+    },
+    {
+      "id": "big-address-mtg4py9s",
+      "label": "Big Address",
+      "type": "big-address",
+      "required": true
+    }
+  ],
+  "optionSets": {
+    "provinces": [
+      {
+        "value": "AB",
+        "label": "AB – Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "BC – British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "MB – Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "NB – New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "NL – Newfoundland & Labrador"
+      },
+      {
+        "value": "NS",
+        "label": "NS – Nova Scotia"
+      },
+      {
+        "value": "NT",
+        "label": "NT – Northwest Territories"
+      },
+      {
+        "value": "NU",
+        "label": "NU – Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "ON – Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "PE – Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "QC – Québec"
+      },
+      {
+        "value": "SK",
+        "label": "SK – Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "YT – Yukon"
+      }
+    ]
+  }
+}
